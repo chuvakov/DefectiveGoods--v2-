@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{1559AD48-F5B5-405D-A725-057C9FF1DFE2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DefectiveGoods/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="DefectiveGoods/Views/Shared/_Layout.cshtml" Line="12" Column="57" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DefectiveGoods" expanded="True">
+            <Node name="DefectiveGoods" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="datatables" expanded="True">
+                    <Node name="css" expanded="True" />
+                    <Node name="js" expanded="True">
+                      <Node name="jquery.dataTables.js" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="scss" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DefectiveGoods PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

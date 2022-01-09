@@ -1,0 +1,29 @@
+.datepicker {
+    &--dark {
+        background-color: $main-color;
+        border-color: $gray-color;
+        color: $white-color;
+
+        .datepicker--pointer {
+            background-color: $main-color;
+            border-color: $gray-color;
+        }
+
+        .datepicker--day-name {
+            color: $yellow-color;
+        }
+
+        .datepicker--cell-day.-other-month-, 
+        .datepicker--cell-year.-other-decade- {
+            color: $gray-color;
+        }
+
+        .datepicker--cell.-current- {
+            color: $green-color;
+        }
+
+        .datepicker--nav {
+            border-color: $gray-color;
+        }
+    }
+}

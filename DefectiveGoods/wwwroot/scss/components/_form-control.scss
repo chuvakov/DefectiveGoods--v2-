@@ -1,0 +1,12 @@
+.form-control {
+    border-radius: $border-radius-sm-btn;
+    background-color: transparent;
+    border-color: $green-color;
+    color: $white-color;
+
+    &:focus {
+        background-color: transparent;
+        border-color: $green-color;
+        color: $white-color;
+    }
+}

@@ -1,0 +1,10 @@
+.main-header {
+    &--dark {
+        background-color: $main-color;
+        border-color: $black-color;
+        
+        a {
+            color: $white-color;
+        }
+    }
+}
