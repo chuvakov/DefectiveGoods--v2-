@@ -13,7 +13,7 @@ namespace DefectiveGoods.Core.ProductCaterories
         [ForeignKey("ProductId")]
         public virtual Product Product { get; set; }
 
-        public virtual long CategoryId { get; set; }
+        public virtual int CategoryId { get; set; }
 
         [ForeignKey("CategoryId")]
         public virtual Category Category { get; set; }

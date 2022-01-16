@@ -10,7 +10,7 @@ namespace DefectiveGoods.Core.Photos
     {
         public virtual long ProductId { get; set; }
 
-        [ForeignKey ("Product")]
+        [ForeignKey ("ProductId")]
         public virtual Product Product { get; set; }
 
         [Required]

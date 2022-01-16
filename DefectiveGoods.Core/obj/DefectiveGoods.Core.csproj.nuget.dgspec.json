@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aleksandr/Desktop/DG#2/DefectiveGoods--v2-/DefectiveGoods.Core/DefectiveGoods.Core.csproj": {}
+    "C:\\Users\\aleksandr\\Desktop\\DG\\DefectiveGoods.Core\\DefectiveGoods.Core.csproj": {}
   },
   "projects": {
-    "/Users/aleksandr/Desktop/DG#2/DefectiveGoods--v2-/DefectiveGoods.Core/DefectiveGoods.Core.csproj": {
+    "C:\\Users\\aleksandr\\Desktop\\DG\\DefectiveGoods.Core\\DefectiveGoods.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aleksandr/Desktop/DG#2/DefectiveGoods--v2-/DefectiveGoods.Core/DefectiveGoods.Core.csproj",
+        "projectUniqueName": "C:\\Users\\aleksandr\\Desktop\\DG\\DefectiveGoods.Core\\DefectiveGoods.Core.csproj",
         "projectName": "DefectiveGoods.Core",
-        "projectPath": "/Users/aleksandr/Desktop/DG#2/DefectiveGoods--v2-/DefectiveGoods.Core/DefectiveGoods.Core.csproj",
-        "packagesPath": "/Users/aleksandr/.nuget/packages/",
-        "outputPath": "/Users/aleksandr/Desktop/DG#2/DefectiveGoods--v2-/DefectiveGoods.Core/obj/",
+        "projectPath": "C:\\Users\\aleksandr\\Desktop\\DG\\DefectiveGoods.Core\\DefectiveGoods.Core.csproj",
+        "packagesPath": "C:\\Users\\aleksandr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleksandr\\Desktop\\DG\\DefectiveGoods.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/aleksandr/.config/NuGet/NuGet.Config"
+          "C:\\Users\\aleksandr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,12 +69,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/5.0.404/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\x64\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

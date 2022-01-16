@@ -21,7 +21,7 @@ namespace DefectiveGoods.Core
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=DefectiveGoodsDb;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=DefectiveGoods;Trusted_Connection=True;");
         }
 
     }

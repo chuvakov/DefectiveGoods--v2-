@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "700d28e3-e405-4772-b697-0456ba74e7f4": {
+      "ProjectGuid": "700d28e3-e405-4772-b697-0456ba74e7f4",
+      "DisplayName": "DefectiveGoods.Core",
+      "ColorIndex": 0
+    },
+    "aa893621-8358-49ad-b621-ce0717d181cf": {
+      "ProjectGuid": "aa893621-8358-49ad-b621-ce0717d181cf",
+      "DisplayName": "DefectiveGoods.Mvc",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
