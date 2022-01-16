@@ -1,38 +1,36 @@
-﻿<Properties StartupConfiguration="{1559AD48-F5B5-405D-A725-057C9FF1DFE2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DefectiveGoods/Views/Shared/_Layout.cshtml">
+﻿<Properties StartupConfiguration="{AA893621-8358-49AD-B621-CE0717D181CF}|DefectiveGoods">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DefectiveGoods.Core/DefectiveGoodsContext.cs">
     <Files>
-      <File FileName="DefectiveGoods/Views/Shared/_Layout.cshtml" Line="12" Column="57" />
+      <File FileName="DefectiveGoods.Core/Users/User.cs" Line="22" Column="53" />
+      <File FileName="DefectiveGoods.Core/Infrastructure/Entities/Entity.cs" />
+      <File FileName="DefectiveGoods.Core/Infrastructure/Entities/Auditing/ICreationAudited.cs" />
+      <File FileName="DefectiveGoods.Mvc/Program.cs" />
+      <File FileName="DefectiveGoods.Core/DefectiveGoodsContext.cs" Line="29" Column="1" />
+      <File FileName="DefectiveGoods.Core/Photos/Photo.cs" />
+      <File FileName="DefectiveGoods.Core/Categories/Category.cs" />
+      <File FileName="DefectiveGoods.Core/ProductCaterories/ProductCategory.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DefectiveGoods" expanded="True">
-            <Node name="DefectiveGoods" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="lib" expanded="True">
-                  <Node name="datatables" expanded="True">
-                    <Node name="css" expanded="True" />
-                    <Node name="js" expanded="True">
-                      <Node name="jquery.dataTables.js" selected="True" />
-                    </Node>
-                  </Node>
-                </Node>
-                <Node name="scss" expanded="True" />
-              </Node>
+            <Node name="DefectiveGoods.Core" expanded="True">
+              <Node name="DefectiveGoodsContext.cs" selected="True" />
             </Node>
+            <Node name="DefectiveGoods.Mvc" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DefectiveGoods.Mvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <DisabledProjects>
+    <String>DefectiveGoods/DefectiveGoods.Mvc.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.DefectiveGoods PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

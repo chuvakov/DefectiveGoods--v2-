@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Products\" />
+    <None Remove="Users\" />
+    <None Remove="ClintUnits\" />
+    <None Remove="Infrastructure\" />
+    <None Remove="Infrastructure\Entities\" />
+    <None Remove="Infrastructure\Entities\Auditing\" />
+    <None Remove="Photos\" />
+    <None Remove="Categories\" />
+    <None Remove="ProductCaterories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Products\" />
+    <Folder Include="Users\" />
+    <Folder Include="Branches\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\Entities\" />
+    <Folder Include="Infrastructure\Entities\Auditing\" />
+    <Folder Include="Photos\" />
+    <Folder Include="Categories\" />
+    <Folder Include="ProductCaterories\" />
+  </ItemGroup>
+</Project>
