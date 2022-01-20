@@ -1,0 +1,70 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/admin-lte/css/adminlte.css" />
+    <link rel="stylesheet" href="~/css/style.min.css" />
+
+</head>
+<body class="login-page hold-transition">
+
+    <div class="login-box">
+        <div class="login-logo">
+            <a href="#" class="brand-link">
+                <i class="fas fa-box-open"></i>
+                <span class="brand-text font-weight-light">Учёт товаров</span>
+            </a>
+        </div>
+
+        <div class="card card--dark">
+            
+            <div class="card-body login-card-body">
+                <form>
+                    <div class="mb-3 row">
+                        <label for="Login" class="col-sm-5 col-form-label">Логин</label>
+                        <div class="col-sm-7">
+                            <div class="input-group input-group--left-btn">
+                                <button type="button" class="btn btn--transparent-green">
+                                    <i class="fas fa-user"></i>
+                                </button>
+                                <input id="CreateModalDatepicker" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="Password" class="col-sm-5 col-form-label">Пароль</label>
+                        <div class="col-sm-7">
+                            <div class="input-group input-group--left-btn">
+                                <button type="button" class="btn btn--transparent-green">
+                                    <i class="fas fa-lock"></i>
+                                </button>
+                                <input id="CreateModalDatepicker" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>    
+
+    <footer class="main-footer main-footer--dark">
+        <div class="container">
+            &copy; 2021 - DefectiveGoods - v0.0.1.@DateTime.Now.ToString("yyyyMMdd")
+        </div>
+    </footer>    
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/admin-lte/js/adminlte.js"></script>
+
+</body>
+</html>
+

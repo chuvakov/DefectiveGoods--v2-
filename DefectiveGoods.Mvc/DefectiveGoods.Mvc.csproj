@@ -3,6 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+    <UserSecretsId>e66191bc-426a-4861-a055-cf5a58473fe9</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'DefectiveGoods' " />
@@ -13,9 +16,11 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="compilerconfig.json" />
     <Content Remove="wwwroot\img\" />
     <Content Remove="wwwroot\js\Home\" />
     <Content Remove="wwwroot\scss\" />
@@ -30,6 +35,9 @@
     <Folder Include="wwwroot\css\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DefectiveGoods.Core\DefectiveGoods.Core.csproj" />
+    <None Include="compilerconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\DefectiveGoods.Application\DefectiveGoods.Application.csproj" />
   </ItemGroup>
 </Project>

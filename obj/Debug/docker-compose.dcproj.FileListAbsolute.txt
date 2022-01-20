@@ -1,0 +1,31 @@
+C:\Users\4ymai\Desktop\DG\bin\Debug\DefectiveGoods.Mvc.Views.dll
+C:\Users\4ymai\Desktop\DG\bin\Debug\DefectiveGoods.Mvc.Views.pdb
+C:\Users\4ymai\Desktop\DG\bin\Debug\DefectiveGoods.Mvc.deps.json
+C:\Users\4ymai\Desktop\DG\bin\Debug\DefectiveGoods.Mvc.runtimeconfig.json
+C:\Users\4ymai\Desktop\DG\bin\Debug\DefectiveGoods.Mvc.runtimeconfig.dev.json
+C:\Users\4ymai\Desktop\DG\bin\Debug\appsettings.Development.json
+C:\Users\4ymai\Desktop\DG\bin\Debug\appsettings.json
+C:\Users\4ymai\Desktop\DG\bin\Debug\libman.json
+C:\Users\4ymai\Desktop\DG\bin\Debug\DefectiveGoods.Mvc.exe
+C:\Users\4ymai\Desktop\DG\bin\Debug\DefectiveGoods.Mvc.dll
+C:\Users\4ymai\Desktop\DG\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\4ymai\Desktop\DG\bin\Debug\DefectiveGoods.Mvc.pdb
+C:\Users\4ymai\Desktop\DG\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\4ymai\Desktop\DG\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\4ymai\Desktop\DG\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\appsettings.Development.json
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\appsettings.json
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\libman.json
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Mvc.Views.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Mvc.Views.pdb
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Mvc.deps.json
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Mvc.runtimeconfig.json
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Mvc.runtimeconfig.dev.json
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Mvc.StaticWebAssets.xml
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Mvc.exe
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Mvc.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Mvc.pdb
+C:\Users\4ymai\Desktop\C# and etc\DG\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\4ymai\Desktop\C# and etc\DG\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\4ymai\Desktop\C# and etc\DG\obj\Debug\docker-compose.dcproj.CopyComplete

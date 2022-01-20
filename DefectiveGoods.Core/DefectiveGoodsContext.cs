@@ -4,9 +4,7 @@ using DefectiveGoods.Core.Photos;
 using DefectiveGoods.Core.ProductCaterories;
 using DefectiveGoods.Core.Products;
 using DefectiveGoods.Core.Users;
-using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace DefectiveGoods.Core
 {
@@ -18,11 +16,5 @@ namespace DefectiveGoods.Core
         public DbSet<Category> Categories { get; set; }
         public DbSet<Photo> Photos { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=DefectiveGoods;Trusted_Connection=True;");
-        }
-
     }
 }
