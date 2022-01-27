@@ -19,15 +19,8 @@ using DefectiveGoods;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Mvc\Views\_ViewImports.cshtml"
-using DefectiveGoods.Models;
-
-#line default
-#line hidden
-#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9991cc6580bfaf65238b040afcff85a92084a4df", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a61260025823f5831d65802f9fc461e286e17c7a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dbb194c3c96840891132cd6fcb9fc77be742aade", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

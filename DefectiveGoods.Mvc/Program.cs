@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DefectiveGoods
+namespace DefectiveGoods.Mvc
 {
     public class Program
     {

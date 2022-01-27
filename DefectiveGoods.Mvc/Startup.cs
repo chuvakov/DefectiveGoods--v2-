@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace DefectiveGoods
+namespace DefectiveGoods.Mvc
 {
     public class Startup
     {

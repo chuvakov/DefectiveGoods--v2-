@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DefectiveGoods.Models
+namespace DefectiveGoods.Mvc.Models
 {
     public class ErrorViewModel
     {
