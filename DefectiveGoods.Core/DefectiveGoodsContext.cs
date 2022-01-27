@@ -16,5 +16,9 @@ namespace DefectiveGoods.Core
         public DbSet<Category> Categories { get; set; }
         public DbSet<Photo> Photos { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
+
+        public DefectiveGoodsContext(DbContextOptions<DefectiveGoodsContext> options) 
+            : base(options)
+        { }
     }
 }

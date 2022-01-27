@@ -1,4 +1,6 @@
-﻿@{
+﻿@model DefectiveGoods.Mvc.Models.Account.LoginViewModel
+
+@{
     Layout = null;
 }
 
@@ -14,52 +16,59 @@
     <link rel="stylesheet" href="~/css/style.min.css" />
 
 </head>
+
 <body class="login-page hold-transition">
 
-    <div class="login-box">
-        <div class="login-logo">
-            <a href="#" class="brand-link">
-                <i class="fas fa-box-open"></i>
-                <span class="brand-text font-weight-light">Учёт товаров</span>
-            </a>
-        </div>
+    <div>
+        <div class="login-box card card--dark">
+            <div class="card-header text-center">
+                <div class="login-logo">
+                    <i class="fas fa-box-open"></i>
+                    <span class="brand-text font-weight-light">Учёт товаров</span>
+                </div>                
+                <h5 class="login-title">Форма входа</h5>
+            </div>
 
-        <div class="card card--dark">
-            
             <div class="card-body login-card-body">
-                <form>
+                <form asp-action="Login" asp-controller="Account">
                     <div class="mb-3 row">
-                        <label for="Login" class="col-sm-5 col-form-label">Логин</label>
-                        <div class="col-sm-7">
+                        <label asp-for="Login" class="col-sm-3 col-form-label">Логин</label>
+                        <div class="col-sm-9">
                             <div class="input-group input-group--left-btn">
                                 <button type="button" class="btn btn--transparent-green">
                                     <i class="fas fa-user"></i>
                                 </button>
-                                <input id="CreateModalDatepicker" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                                <input asp-for="Login" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                                <span asp-validation-for="Login"></span>
                             </div>
                         </div>
                     </div>
-                    <div class="mb-3 row">
-                        <label for="Password" class="col-sm-5 col-form-label">Пароль</label>
-                        <div class="col-sm-7">
+                    <div class="mb-5 row">
+                        <label asp-for="Password" class="col-sm-3 col-form-label">Пароль</label>
+                        <div class="col-sm-9">
                             <div class="input-group input-group--left-btn">
                                 <button type="button" class="btn btn--transparent-green">
                                     <i class="fas fa-lock"></i>
                                 </button>
-                                <input id="CreateModalDatepicker" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                                <input asp-for="Password" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                                <span asp-validation-for="Password"></span>
                             </div>
                         </div>
                     </div>
+                    <div class="row mb-3">
+                        <button type="submit" class="btn btn--green">Войти</button>
+                    </div>
                 </form>
             </div>
-        </div>
-    </div>    
 
-    <footer class="main-footer main-footer--dark">
-        <div class="container">
-            &copy; 2021 - DefectiveGoods - v0.0.1.@DateTime.Now.ToString("yyyyMMdd")
         </div>
-    </footer>    
+
+        <footer class="main-footer main-footer--dark" style="margin: 0">            
+            &copy; 2021 DefectiveGoods 
+            <br />
+            v0.0.1.@DateTime.Now.ToString("yyyyMMdd")            
+        </footer>
+    </div>    
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>

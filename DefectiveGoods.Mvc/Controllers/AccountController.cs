@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DefectiveGoods.Mvc.Models.Account;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,9 +9,21 @@ namespace DefectiveGoods.Mvc.Controllers
 {
     public class AccountController : Controller
     {
+        [HttpGet]
         public IActionResult Login()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login(LoginViewModel input)
+        {
+            if (ModelState.IsValid)
+            {
+
+            }
+
+            return View(input);
         }
     }
 }

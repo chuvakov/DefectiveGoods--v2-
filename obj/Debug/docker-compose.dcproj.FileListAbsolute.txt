@@ -29,3 +29,11 @@ C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Mvc.pdb
 C:\Users\4ymai\Desktop\C# and etc\DG\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\4ymai\Desktop\C# and etc\DG\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\4ymai\Desktop\C# and etc\DG\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Core.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Npgsql.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Core.pdb

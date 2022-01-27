@@ -1593,7 +1593,8 @@
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.11",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.12",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.11.1"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.11.1",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.10"
     ]
   },
   "packageFolders": {
@@ -1661,6 +1662,10 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.11.1, )"
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "target": "Package",
+            "version": "[5.0.10, )"
           }
         },
         "imports": [

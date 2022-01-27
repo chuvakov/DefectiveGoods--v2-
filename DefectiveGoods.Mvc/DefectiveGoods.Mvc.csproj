@@ -17,6 +17,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
   </ItemGroup>
 
   <ItemGroup>
@@ -30,8 +31,6 @@
   <ItemGroup>
     <Folder Include="wwwroot\img\" />
     <Folder Include="wwwroot\js\Home\" />
-    <Folder Include="wwwroot\scss\" />
-    <Folder Include="wwwroot\scss\components\" />
     <Folder Include="wwwroot\css\" />
   </ItemGroup>
   <ItemGroup>

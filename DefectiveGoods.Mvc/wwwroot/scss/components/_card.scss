@@ -3,6 +3,7 @@
 
     &--dark {
         background-color: $main-color;
+        box-shadow: none;
 
         .card-header {
             border-color: $gray-color;
