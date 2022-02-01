@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using DefectiveGoods.Core.Infrastructure.Entities;
 
 namespace DefectiveGoods.Core.Branches
@@ -11,6 +12,9 @@ namespace DefectiveGoods.Core.Branches
         public string CodeName { get; set; }
 
         [MaxLength(128)]
-        public string Name { get; set; }        
+        public string Name { get; set; }
+
+        [NotMapped]
+        public string FullName => $"{Name} ({CodeName})";
     }
 }

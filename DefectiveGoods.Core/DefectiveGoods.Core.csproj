@@ -5,15 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.12">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Remove="Products\" />
     <None Remove="Users\" />
     <None Remove="ClintUnits\" />
@@ -26,9 +17,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Products\" />
-    <Folder Include="Users\" />
-    <Folder Include="Branches\" />
-    <Folder Include="Infrastructure\" />
     <Folder Include="Infrastructure\Entities\" />
     <Folder Include="Infrastructure\Entities\Auditing\" />
     <Folder Include="Photos\" />

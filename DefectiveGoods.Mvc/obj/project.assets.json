@@ -502,26 +502,9 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "DefectiveGoods.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "DefectiveGoods.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DefectiveGoods.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DefectiveGoods.Application.dll": {}
-        }
-      },
       "DefectiveGoods.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.12",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10"
-        },
         "compile": {
           "bin/placeholder/DefectiveGoods.Core.dll": {}
         },
@@ -1576,11 +1559,6 @@
         "version.txt"
       ]
     },
-    "DefectiveGoods.Application/1.0.0": {
-      "type": "project",
-      "path": "../../DefectiveGoods.Application/DefectiveGoods.Application.csproj",
-      "msbuildProject": "../../DefectiveGoods.Application/DefectiveGoods.Application.csproj"
-    },
     "DefectiveGoods.Core/1.0.0": {
       "type": "project",
       "path": "../DefectiveGoods.Core/DefectiveGoods.Core.csproj",
@@ -1589,7 +1567,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "DefectiveGoods.Application >= 1.0.0",
+      "DefectiveGoods.Core >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.11",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.12",
@@ -1629,8 +1607,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\4ymai\\Desktop\\C# and etc\\DefectiveGoods.Application\\DefectiveGoods.Application.csproj": {
-              "projectPath": "C:\\Users\\4ymai\\Desktop\\C# and etc\\DefectiveGoods.Application\\DefectiveGoods.Application.csproj"
+            "C:\\Users\\4ymai\\Desktop\\C# and etc\\DG\\DefectiveGoods.Core\\DefectiveGoods.Core.csproj": {
+              "projectPath": "C:\\Users\\4ymai\\Desktop\\C# and etc\\DG\\DefectiveGoods.Core\\DefectiveGoods.Core.csproj"
             }
           }
         }

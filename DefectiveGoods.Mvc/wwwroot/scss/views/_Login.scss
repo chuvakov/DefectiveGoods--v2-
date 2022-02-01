@@ -29,6 +29,8 @@
         .form-control {
             border-right: none;
             border: 1px solid $green-color;
+            border-top-right-radius: $border-radius-sm-btn !important;
+            border-bottom-right-radius: $border-radius-sm-btn !important;
         }
     }
 }

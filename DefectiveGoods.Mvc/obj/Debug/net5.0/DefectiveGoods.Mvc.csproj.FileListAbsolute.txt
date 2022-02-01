@@ -1144,6 +1144,5 @@ C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Mvc\obj\Debug\net5.0\Defecti
 C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Mvc\obj\Debug\net5.0\ref\DefectiveGoods.Mvc.dll
 C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Mvc\obj\Debug\net5.0\DefectiveGoods.Mvc.pdb
 C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Mvc\obj\Debug\net5.0\DefectiveGoods.Mvc.genruntimeconfig.cache
-C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\DefectiveGoods.Application.dll
-C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\DefectiveGoods.Application.pdb
 C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Mvc\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Mvc\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
