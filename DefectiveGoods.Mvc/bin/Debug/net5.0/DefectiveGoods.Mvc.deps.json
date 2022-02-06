@@ -33,7 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "DefectiveGoods.Mvc/1.0.0": {
         "dependencies": {
-          "DefectiveGoods.Core": "1.0.0",
+          "DefectiveGoods.EntityFrameworkCore": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "5.0.11",
           "Microsoft.EntityFrameworkCore": "5.0.12",
           "Microsoft.EntityFrameworkCore.Design": "5.0.12",
@@ -696,6 +696,19 @@
         },
         "compile": {
           "DefectiveGoods.Core.dll": {}
+        }
+      },
+      "DefectiveGoods.EntityFrameworkCore/1.0.0": {
+        "dependencies": {
+          "DefectiveGoods.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.12",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10"
+        },
+        "runtime": {
+          "DefectiveGoods.EntityFrameworkCore.dll": {}
+        },
+        "compile": {
+          "DefectiveGoods.EntityFrameworkCore.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2645,6 +2658,11 @@
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
     },
     "DefectiveGoods.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DefectiveGoods.EntityFrameworkCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

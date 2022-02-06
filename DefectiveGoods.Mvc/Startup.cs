@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DefectiveGoods.Core;
+using DefectiveGoods.Core.Branches;
+using DefectiveGoods.Core.Infrastructure.Repositories;
 using DefectiveGoods.Core.Users;
+using DefectiveGoods.EntityFrameworkCore;
+using DefectiveGoods.EntityFrameworkCore.Repositories;
+using DefectiveGoods.EntityFrameworkCore.Repositories.Users;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -37,7 +42,8 @@ namespace DefectiveGoods.Mvc
                     options.LoginPath = new Microsoft.AspNetCore.Http.PathString("/Account/Login");
                 });
 
-            services.AddTransient<IUserManager, UserManager>();
+            services.AddTransient<IUserRepository, UserRepository>();
+            services.AddTransient<IRepository<Branch, int>, EfRepositoryBase<DefectiveGoodsContext, Branch, int>>();
             services.AddControllersWithViews();
         }
 

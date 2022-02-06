@@ -34,6 +34,8 @@ C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Core.dll
 C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Npgsql.dll
 C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.Core.pdb
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.EntityFrameworkCore.dll
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.EntityFrameworkCore.pdb
+C:\Users\4ymai\Desktop\C# and etc\DG\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll

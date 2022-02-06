@@ -11,18 +11,22 @@ using Microsoft.AspNetCore.Authentication;
 using DefectiveGoods.Core;
 using DefectiveGoods.Core.Branches;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using DefectiveGoods.Core.Infrastructure.Repositories;
 
 namespace DefectiveGoods.Mvc.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly IUserManager _userManager;
-        private readonly DefectiveGoodsContext _context;
+        private readonly IUserRepository _userRepository;
+        private readonly IRepository<Branch, int> _branchRepository;
 
-        public AccountController(IUserManager userManager, DefectiveGoodsContext context)
+        public AccountController(
+            IUserRepository userRepository,
+            IRepository<Branch, int> branchRepository
+        )
         {
-            _userManager = userManager;
-            _context = context;
+            _userRepository = userRepository;
+            _branchRepository = branchRepository;
         }
 
         [HttpGet]
@@ -36,7 +40,7 @@ namespace DefectiveGoods.Mvc.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (_userManager.IsExist(input.Login, input.Password))
+                if (_userRepository.IsExist(input.Login, input.Password))
                 {
                     await Authentication(input.Login);
                     return RedirectToAction("Index", "Home");
@@ -61,7 +65,7 @@ namespace DefectiveGoods.Mvc.Controllers
         [HttpGet]
         public IActionResult Register()
         {
-            IList<Branch> branches = _context.Branches.ToList();
+            IList<Branch> branches = _branchRepository.GetAll();
             ViewBag.Branches = new SelectList(branches, "Id", "FullName");
             return View();
         }
@@ -74,7 +78,7 @@ namespace DefectiveGoods.Mvc.Controllers
                 
             }
 
-            IList<Branch> branches = _context.Branches.ToList();
+            IList<Branch> branches = _branchRepository.GetAll();
             ViewBag.Branches = new SelectList(branches, "Id", "FullName");
             return View(input);
         }

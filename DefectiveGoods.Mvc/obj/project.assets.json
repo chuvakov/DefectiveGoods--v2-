@@ -511,6 +511,21 @@
         "runtime": {
           "bin/placeholder/DefectiveGoods.Core.dll": {}
         }
+      },
+      "DefectiveGoods.EntityFrameworkCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DefectiveGoods.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.12",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10"
+        },
+        "compile": {
+          "bin/placeholder/DefectiveGoods.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DefectiveGoods.EntityFrameworkCore.dll": {}
+        }
       }
     }
   },
@@ -1563,11 +1578,16 @@
       "type": "project",
       "path": "../DefectiveGoods.Core/DefectiveGoods.Core.csproj",
       "msbuildProject": "../DefectiveGoods.Core/DefectiveGoods.Core.csproj"
+    },
+    "DefectiveGoods.EntityFrameworkCore/1.0.0": {
+      "type": "project",
+      "path": "../../DefectiveGoods.EntityFrameworkCore/DefectiveGoods.EntityFrameworkCore.csproj",
+      "msbuildProject": "../../DefectiveGoods.EntityFrameworkCore/DefectiveGoods.EntityFrameworkCore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "DefectiveGoods.Core >= 1.0.0",
+      "DefectiveGoods.EntityFrameworkCore >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 5.0.11",
       "Microsoft.EntityFrameworkCore >= 5.0.12",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.12",
@@ -1607,8 +1627,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\4ymai\\Desktop\\C# and etc\\DG\\DefectiveGoods.Core\\DefectiveGoods.Core.csproj": {
-              "projectPath": "C:\\Users\\4ymai\\Desktop\\C# and etc\\DG\\DefectiveGoods.Core\\DefectiveGoods.Core.csproj"
+            "C:\\Users\\4ymai\\Desktop\\C# and etc\\DefectiveGoods.EntityFrameworkCore\\DefectiveGoods.EntityFrameworkCore.csproj": {
+              "projectPath": "C:\\Users\\4ymai\\Desktop\\C# and etc\\DefectiveGoods.EntityFrameworkCore\\DefectiveGoods.EntityFrameworkCore.csproj"
             }
           }
         }

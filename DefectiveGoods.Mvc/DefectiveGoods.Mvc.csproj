@@ -37,6 +37,6 @@
     <None Include="compilerconfig.json" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DefectiveGoods.Core\DefectiveGoods.Core.csproj" />
+    <ProjectReference Include="..\..\DefectiveGoods.EntityFrameworkCore\DefectiveGoods.EntityFrameworkCore.csproj" />
   </ItemGroup>
 </Project>
