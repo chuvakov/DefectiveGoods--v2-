@@ -28,7 +28,6 @@ C:\Users\4ymai\Desktop\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Co
 C:\Users\4ymai\Desktop\DG\DefectiveGoods.Core\obj\Debug\net5.0\ref\DefectiveGoods.Core.dll
 C:\Users\4ymai\Desktop\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.pdb
 C:\Users\4ymai\Desktop\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.genruntimeconfig.cache
-C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.csproj.AssemblyReference.cache
 C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.AssemblyInfoInputs.cache
 C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.AssemblyInfo.cs
@@ -40,3 +39,15 @@ C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Core\bin\Debug\net5.0\Defect
 C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Core\bin\Debug\net5.0\DefectiveGoods.Core.dll
 C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Core\bin\Debug\net5.0\ref\DefectiveGoods.Core.dll
 C:\Users\4ymai\Desktop\C# and etc\DG\DefectiveGoods.Core\bin\Debug\net5.0\DefectiveGoods.Core.pdb
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\bin\Debug\net5.0\DefectiveGoods.Core.deps.json
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\bin\Debug\net5.0\DefectiveGoods.Core.dll
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\bin\Debug\net5.0\ref\DefectiveGoods.Core.dll
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\bin\Debug\net5.0\DefectiveGoods.Core.pdb
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.AssemblyInfoInputs.cache
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.AssemblyInfo.cs
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.csproj.CoreCompileInputs.cache
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.dll
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\ref\DefectiveGoods.Core.dll
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.pdb
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Core\obj\Debug\net5.0\DefectiveGoods.Core.csproj.AssemblyReference.cache
