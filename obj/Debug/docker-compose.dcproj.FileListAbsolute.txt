@@ -65,3 +65,5 @@ C:\Users\a.chuvakov\Desktop\C# and etc\DG\bin\Debug\DefectiveGoods.EntityFramewo
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\bin\Debug\AutoMapper.dll

@@ -5,5 +5,6 @@ namespace DefectiveGoods.Core.Users
     public interface IUserRepository : IRepository<User, long>
     {
         bool IsExist(string login, string password);
+        bool IsExist(string login);
     }
 }

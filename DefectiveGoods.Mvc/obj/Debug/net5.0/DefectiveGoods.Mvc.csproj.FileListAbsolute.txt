@@ -1250,7 +1250,6 @@ C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\re
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Configuration.Xml.dll
-C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
@@ -1276,8 +1275,6 @@ C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\re
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.ObjectPool.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
-C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.JSInterop.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\Microsoft.Net.Http.Headers.dll
@@ -1376,7 +1373,6 @@ C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\re
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\System.Resources.Reader.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\System.Resources.ResourceManager.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\System.Resources.Writer.dll
-C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\System.Runtime.CompilerServices.VisualC.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\System.Runtime.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\refs\System.Runtime.Extensions.dll
@@ -1519,3 +1515,9 @@ C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\obj\Debug\net5.0\De
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\obj\Debug\net5.0\ref\DefectiveGoods.Mvc.dll
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\obj\Debug\net5.0\DefectiveGoods.Mvc.pdb
 C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\obj\Debug\net5.0\DefectiveGoods.Mvc.genruntimeconfig.cache
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\a.chuvakov\Desktop\C# and etc\DG\DefectiveGoods.Mvc\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll

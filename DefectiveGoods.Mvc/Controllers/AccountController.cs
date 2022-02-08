@@ -12,6 +12,7 @@ using DefectiveGoods.Core;
 using DefectiveGoods.Core.Branches;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using DefectiveGoods.Core.Infrastructure.Repositories;
+using AutoMapper;
 
 namespace DefectiveGoods.Mvc.Controllers
 {
@@ -19,14 +20,17 @@ namespace DefectiveGoods.Mvc.Controllers
     {
         private readonly IUserRepository _userRepository;
         private readonly IRepository<Branch, int> _branchRepository;
+        private readonly IMapper _mapper;
 
         public AccountController(
             IUserRepository userRepository,
-            IRepository<Branch, int> branchRepository
+            IRepository<Branch, int> branchRepository,
+            IMapper mapper
         )
         {
             _userRepository = userRepository;
             _branchRepository = branchRepository;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -75,7 +79,18 @@ namespace DefectiveGoods.Mvc.Controllers
         {
             if (ModelState.IsValid)
             {
-                
+                if (!_userRepository.IsExist(input.Login))
+                {
+                    var user = _mapper.Map<User>(input);
+                    _userRepository.Insert(user);
+
+                    await Authentication(user.Login);
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    ModelState.AddModelError("Login", "Такой логин уже занят");
+                }
             }
 
             IList<Branch> branches = _branchRepository.GetAll();
