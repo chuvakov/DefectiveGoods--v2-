@@ -49,9 +49,19 @@ namespace DefectiveGoods.Mvc.Controllers
                     await Authentication(input.Login);
                     return RedirectToAction("Index", "Home");
                 }
+                else
+                {
+                    ModelState.AddModelError("State", "Неверный логин и/или пароль");
+                }
             }
 
             return View(input);
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login", "Account");
         }
 
         private async Task Authentication(string userName)

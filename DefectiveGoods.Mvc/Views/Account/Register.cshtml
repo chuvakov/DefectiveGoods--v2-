@@ -70,7 +70,7 @@
                     <div class="mb-3 row">
                         <label asp-for="BranchId" class="col-sm-3 col-form-label">Подразделение</label>
                         <div class="col-sm-9">
-                            @Html.DropDownList("BranchId", ViewBag.Branches as SelectList)
+                            @Html.DropDownList("BranchId", ViewBag.Branches as SelectList, new{@class = "select-dark"})                            
                         </div>
                     </div>
                     <div class="row mb-3 mt-5">

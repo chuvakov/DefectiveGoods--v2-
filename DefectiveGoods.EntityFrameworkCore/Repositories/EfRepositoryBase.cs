@@ -25,6 +25,7 @@ namespace DefectiveGoods.EntityFrameworkCore.Repositories
         public override void Delete(TEntity entity)
         {
             Table.Remove(entity);
+            Context.SaveChanges();
         }
 
         public override void Delete(TPrimaryKey id)
@@ -56,12 +57,15 @@ namespace DefectiveGoods.EntityFrameworkCore.Repositories
 
         public override TEntity Insert(TEntity entity)
         {
-            return Table.Add(entity).Entity;
+            var result = Table.Add(entity).Entity;
+            Context.SaveChanges();
+            return result;
         }
 
         public override void Update(TEntity entity)
         {
-            Table.Update(entity);           
+            Table.Update(entity);
+            Context.SaveChanges();
         }
     }
 }
