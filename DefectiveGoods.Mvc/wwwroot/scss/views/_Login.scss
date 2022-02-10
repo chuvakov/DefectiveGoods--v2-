@@ -1,0 +1,36 @@
+﻿.login-page {
+    background-color: $second-color;
+
+    .login-card-body {
+        background-color: $main-color;
+        border-radius: $border-radius-base;
+    }
+
+    .main-footer--dark {
+        background: transparent;
+        padding: 0;
+        text-align: end;
+    }
+
+    .col-form-label {
+        color: $white-color;
+    }
+
+    .input-group--left-btn {
+        .btn {
+            cursor: default;
+
+            &:hover {
+                background-color: transparent;
+                color: $green-color;
+            }
+        }
+
+        .form-control {
+            border-right: none;
+            border: 1px solid $green-color;
+            border-top-right-radius: $border-radius-sm-btn !important;
+            border-bottom-right-radius: $border-radius-sm-btn !important;
+        }
+    }
+}

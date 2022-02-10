@@ -1,0 +1,97 @@
+﻿@model DefectiveGoods.Mvc.Models.Account.RegisterViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/admin-lte/css/adminlte.css" />
+    <link rel="stylesheet" href="~/css/style.min.css" />
+
+</head>
+
+<body class="login-page hold-transition">
+
+    <div>
+        <div class="login-box card card--dark">
+            <div class="card-header text-center">
+                <div class="login-logo">
+                    <i class="fas fa-box-open"></i>
+                    <span class="brand-text font-weight-light">Учёт товаров</span>
+                </div>
+                <h5 class="login-title">Форма регистрации</h5>
+            </div>
+
+            <div class="card-body login-card-body">
+                <form asp-action="Register" asp-controller="Account">
+                    <div class="mb-3 row">
+                        <label asp-for="Login" class="col-sm-3 col-form-label">Логин</label>
+                        <div class="col-sm-9">
+                            <div class="input-group input-group--left-btn">
+                                <button type="button" class="btn btn--transparent-green">
+                                    <i class="fas fa-user"></i>
+                                </button>
+                                <input asp-for="Login" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                                <span asp-validation-for="Login"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label asp-for="Password" class="col-sm-3 col-form-label">Пароль</label>
+                        <div class="col-sm-9">
+                            <div class="input-group input-group--left-btn">
+                                <button type="button" class="btn btn--transparent-green">
+                                    <i class="fas fa-lock"></i>
+                                </button>
+                                <input asp-for="Password" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                                <span asp-validation-for="Password"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label asp-for="PasswordRepeat" class="col-sm-3 col-form-label">Повтор пароля</label>
+                        <div class="col-sm-9">
+                            <div class="input-group input-group--left-btn">
+                                <button type="button" class="btn btn--transparent-green">
+                                    <i class="fas fa-lock"></i>
+                                </button>
+                                <input asp-for="PasswordRepeat" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                                <span asp-validation-for="PasswordRepeat"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label asp-for="BranchId" class="col-sm-3 col-form-label">Подразделение</label>
+                        <div class="col-sm-9">
+                            @Html.DropDownList("BranchId", ViewBag.Branches as SelectList)
+                        </div>
+                    </div>
+                    <div class="row mb-3 mt-5">
+                        <button type="submit" class="btn btn--green">Регистрация</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <footer class="main-footer main-footer--dark" style="margin: 0">
+            &copy; 2021 DefectiveGoods
+            <br />
+            v0.0.1.@DateTime.Now.ToString("yyyyMMdd")
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/admin-lte/js/adminlte.js"></script>
+
+</body>
+</html>
+

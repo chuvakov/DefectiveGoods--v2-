@@ -1,0 +1,30 @@
+.main-sidebar {
+    // Modifiers
+    &--dark{
+        background-color: $main-color;
+        color: $white-color;
+
+        .brand-link {
+            background-color: $green-color;
+            color: $white-color;
+            display: flex;
+            align-items: center;
+
+            i {
+                font-size: 30px;
+                margin-right: 20px;
+                margin-left: 10px;
+            }
+        }
+        
+        .sidebar {
+            a {
+                color: $white-color;
+            }
+
+            .user-panel {
+                background-color: $main-contrast-color;
+            }
+        }
+    }        
+}
