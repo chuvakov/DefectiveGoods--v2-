@@ -29,6 +29,25 @@
     {
       "library": "datatables@1.10.21",
       "destination": "wwwroot/lib/datatables/"
+    },
+    {
+      "provider": "jsdelivr",
+      "library": "animate.css@4.1.1",
+      "destination": "wwwroot/lib/animate.css/",
+      "files": [
+        "animate.min.css",
+        "animate.css"
+      ]
     }
-  ]
+  ,
+{
+  "library": "datatables.net-bs5@1.11.4",
+  "destination": "wwwroot/lib/datatables/datatables.net-bs5/"
+}
+,
+{
+  "library": "datatables.net-bs5@1.11.4",
+  "destination": "wwwroot/lib/datatables.net-bs5/"
+}
+]
 }

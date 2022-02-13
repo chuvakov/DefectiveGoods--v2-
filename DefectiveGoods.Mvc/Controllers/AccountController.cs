@@ -31,11 +31,11 @@ namespace DefectiveGoods.Mvc.Controllers
             _userRepository = userRepository;
             _branchRepository = branchRepository;
             _mapper = mapper;
-        }
+        }        
 
         [HttpGet]
         public IActionResult Login()
-        {
+        {        
             return View();
         }
 

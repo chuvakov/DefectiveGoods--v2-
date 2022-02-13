@@ -50,7 +50,7 @@
                                 <button type="button" class="btn btn--transparent-green">
                                     <i class="fas fa-lock"></i>
                                 </button>
-                                <input asp-for="Password" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                                <input asp-for="Password" type="password" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
                                 <span asp-validation-for="Password"></span>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                                 <button type="button" class="btn btn--transparent-green">
                                     <i class="fas fa-lock"></i>
                                 </button>
-                                <input asp-for="PasswordRepeat" type="text" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
+                                <input asp-for="PasswordRepeat" type="password" class="form-control datepicker-here" data-position="right top" aria-label="Дата поступления" aria-describedby="button-addon2">
                                 <span asp-validation-for="PasswordRepeat"></span>
                             </div>
                         </div>
@@ -70,7 +70,10 @@
                     <div class="mb-3 row">
                         <label asp-for="BranchId" class="col-sm-3 col-form-label">Подразделение</label>
                         <div class="col-sm-9">
-                            @Html.DropDownList("BranchId", ViewBag.Branches as SelectList, new{@class = "select-dark"})                            
+                            <div class="select">
+                                @Html.DropDownList("BranchId", ViewBag.Branches as SelectList, new{@class = "select-input w-100"}) 
+                                <span class="select__arrow"></span>
+                            </div>                                                       
                         </div>
                     </div>
                     <div class="row mb-3 mt-5">

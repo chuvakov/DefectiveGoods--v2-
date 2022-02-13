@@ -8,7 +8,7 @@ namespace DefectiveGoods.EntityFrameworkCore.Repositories.Users
         public UserRepository(DefectiveGoodsContext context)
             : base(context)
         {
-        }
+        }        
 
         public bool IsExist(string login, string password)
         {

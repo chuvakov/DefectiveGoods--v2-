@@ -8,7 +8,7 @@ namespace DefectiveGoods.Mvc.Mapping
     {
         public ViewModelToEntityProfile()
         {
-            CreateMap<RegisterViewModel, User>();            
+            CreateMap<RegisterViewModel, User>();              
         }
     }
 }

@@ -6,6 +6,7 @@ using AutoMapper;
 using DefectiveGoods.Core;
 using DefectiveGoods.Core.Branches;
 using DefectiveGoods.Core.Infrastructure.Repositories;
+using DefectiveGoods.Core.Products;
 using DefectiveGoods.Core.Users;
 using DefectiveGoods.EntityFrameworkCore;
 using DefectiveGoods.EntityFrameworkCore.Repositories;
@@ -48,13 +49,17 @@ namespace DefectiveGoods.Mvc
             var mapperConfig = new MapperConfiguration(mc =>
             {
                 mc.AddProfile(new ViewModelToEntityProfile());
+                mc.AddProfile(new EntityToDtoProfile());
             });
 
             IMapper mapper = mapperConfig.CreateMapper();
-            services.AddSingleton(mapper);
 
+            // Внедрение зависимостей
+            services.AddSingleton(mapper);            
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IRepository<Branch, int>, EfRepositoryBase<DefectiveGoodsContext, Branch, int>>();
+            services.AddTransient<IRepository<Product, long>, EfRepositoryBase<DefectiveGoodsContext, Product, long>>();
+
             services.AddControllersWithViews();
         }
 

@@ -4,12 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - DefectiveGoods</title>
+    <link rel="stylesheet" href="~/lib/animate.css/animate.min.css" />
     <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
     <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/lib/admin-lte/css/adminlte.css" />
+    <link rel="stylesheet" href="~/lib/datatables.net-bs5/dataTables.bootstrap5.min.css" />
     <link rel="stylesheet" href="~/lib/air-datepicker/css/datepicker.css" />
-    <link rel="stylesheet" href="~/lib/datatables/css/dataTables.bootstrap.css" />
-    <link rel="stylesheet" href="~/css/style.min.css" />
+    <link rel="stylesheet" href="~/css/style.min.css" />    
 
 </head>
 <body class="sidebar-mini layout-fixed layout-navbar-fixed">
@@ -59,7 +60,7 @@
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Alexander Pierce</a>
+                        <a href="#" class="d-block">@User.Identity.Name</a>
                     </div>
                 </div>
 
@@ -109,7 +110,7 @@
     <script src="~/lib/admin-lte/js/adminlte.js"></script>
     <script src="~/lib/air-datepicker/js/datepicker.min.js"></script>
     <script src="~/lib/datatables/js/jquery.dataTables.js"></script>
-    <script src="~/lib/datatables/js/dataTables.bootstrap.js"></script>
+    <script src="~/lib/datatables.net-bs5/dataTables.bootstrap5.min.js"></script>    
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
