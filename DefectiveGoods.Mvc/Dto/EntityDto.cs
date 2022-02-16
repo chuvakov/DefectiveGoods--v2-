@@ -1,7 +1,7 @@
 ﻿namespace DefectiveGoods.Mvc.Dto
 {
-    public class EntityDto<TPrimaryKey>
+    public abstract class EntityDto<TPrimaryKey>
     {
-        public TPrimaryKey Id { get; set; }
+        public virtual TPrimaryKey Id { get; set; }
     }
 }
