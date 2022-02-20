@@ -11,6 +11,8 @@ using DefectiveGoods.Mvc.Dto.Products;
 using DefectiveGoods.Core.Infrastructure.Repositories;
 using DefectiveGoods.Core.Products;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using DefectiveGoods.Mvc.Dto;
 
 namespace DefectiveGoods.Mvc.Controllers
 {
@@ -42,11 +44,22 @@ namespace DefectiveGoods.Mvc.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IEnumerable<ProductDto> GetProducts()
+        public PagedResultDto<ProductDto> GetProducts(PagedProductReguestDto input)
         {
-            var products = _productRepository.GetAll();
-            return _mapper.Map<IEnumerable<ProductDto>>(products);
-        }
+            IQueryable<Product> query = _productRepository
+                .GetAll()
+                .AsNoTracking();
+
+            int totalCount = query.Count();
+
+            var products = query
+                .Skip(input.SkipCount)
+                .Take(input.MaxResultCount)
+                .ToList()
+                .AsReadOnly();
+
+            return new PagedResultDto<ProductDto>(totalCount, _mapper.Map<IReadOnlyList<ProductDto>>(products));
+        }        
     }
 }
 

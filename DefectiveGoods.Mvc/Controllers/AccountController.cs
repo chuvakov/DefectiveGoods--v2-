@@ -79,7 +79,10 @@ namespace DefectiveGoods.Mvc.Controllers
         [HttpGet]
         public IActionResult Register()
         {
-            IList<Branch> branches = _branchRepository.GetAll();
+            IList<Branch> branches = _branchRepository
+                .GetAll()
+                .ToList();
+
             ViewBag.Branches = new SelectList(branches, "Id", "FullName");
             return View();
         }
@@ -103,7 +106,10 @@ namespace DefectiveGoods.Mvc.Controllers
                 }
             }
 
-            IList<Branch> branches = _branchRepository.GetAll();
+            IList<Branch> branches = _branchRepository
+                .GetAll()
+                .ToList();
+
             ViewBag.Branches = new SelectList(branches, "Id", "FullName");
             return View(input);
         }

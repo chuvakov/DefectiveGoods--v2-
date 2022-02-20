@@ -38,16 +38,14 @@
         "animate.min.css",
         "animate.css"
       ]
+    },
+    {
+      "library": "datatables.net-bs5@1.11.4",
+      "destination": "wwwroot/lib/datatables.net-bs5/"
+    },
+    {
+      "library": "axios@0.26.0",
+      "destination": "wwwroot/lib/axios/"
     }
-  ,
-{
-  "library": "datatables.net-bs5@1.11.4",
-  "destination": "wwwroot/lib/datatables/datatables.net-bs5/"
-}
-,
-{
-  "library": "datatables.net-bs5@1.11.4",
-  "destination": "wwwroot/lib/datatables.net-bs5/"
-}
-]
+  ]
 }

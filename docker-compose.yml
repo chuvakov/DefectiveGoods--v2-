@@ -1,11 +1,11 @@
 version: '3.4'
 
 services:
-  defectivegoods.mvc:
-    image: ${DOCKER_REGISTRY-}defectivegoodsmvc
-    build:
-      context: .
-      dockerfile: DefectiveGoods.Mvc/Dockerfile
+  #defectivegoods.mvc:
+  #  image: ${DOCKER_REGISTRY-}defectivegoodsmvc
+  #  build:
+  #    context: .
+  #    dockerfile: DefectiveGoods.Mvc/Dockerfile
 
   dg.pgsql:
     image: postgres:12.4-alpine

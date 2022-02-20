@@ -9,7 +9,7 @@ namespace DefectiveGoods.Core.Infrastructure.Repositories
 {
     public interface IRepository<TEntity, TPrimaryKey> where TEntity : Entity<TPrimaryKey>
     {
-        IList<TEntity> GetAll();
+        IQueryable<TEntity> GetAll();
 
         TEntity Get(TPrimaryKey id);
 

@@ -16,7 +16,7 @@ namespace DefectiveGoods.Core.Infrastructure.Repositories
 
         public abstract TEntity Get(TPrimaryKey id);
 
-        public abstract IList<TEntity> GetAll();
+        public abstract IQueryable<TEntity> GetAll();
 
         public abstract TEntity Insert(TEntity entity);        
 

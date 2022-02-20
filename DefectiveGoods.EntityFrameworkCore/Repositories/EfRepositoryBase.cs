@@ -50,9 +50,9 @@ namespace DefectiveGoods.EntityFrameworkCore.Repositories
             return entity;
         }
 
-        public override IList<TEntity> GetAll()
+        public override IQueryable<TEntity> GetAll()
         {
-            return Table.ToList();
+            return Table;
         }
 
         public override TEntity Insert(TEntity entity)
