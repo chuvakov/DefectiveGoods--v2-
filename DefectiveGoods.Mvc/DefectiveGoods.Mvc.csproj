@@ -35,7 +35,6 @@
     <None Remove=".gitignore" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\img\" />
     <Folder Include="wwwroot\js\Home\" />
     <Folder Include="wwwroot\css\" />
   </ItemGroup>

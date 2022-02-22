@@ -1,0 +1,35 @@
+﻿<aside class="main-sidebar main-sidebar--dark sidebar-no-expand elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+        <i class="fas fa-box-open"></i>
+        <span class="brand-text font-weight-light">Учёт товаров</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex align-items-center">
+            <div class="image">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="info">
+                <a href="#" class="d-block">@User.Identity.Name</a>
+            </div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu">
+
+                <li class="nav-item">
+                    <a asp-controller="Home" asp-action="Index" class="nav-link">
+                        <i class="nav-icon fas fa-th"></i>
+                        Главная
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+</aside>

@@ -1,4 +1,4 @@
-﻿import HomeService from "./../api/HomeService"
+﻿import HomeService from "./../api/HomeService.js"
 
 $(function () {
     $('[data-bs-toggle="tooltip"]').tooltip();
@@ -12,13 +12,13 @@ $(function () {
          ordering: true,
          order: [[1,'asc']],
          serverSide: true,
-         ajax: function (data, callback) {
+         ajax: async function (data, callback) {
              let filter = {
                  maxResultCount: data.length,
                  skipCount: data.start
              }
 
-             let products = HomeService.getProducts(filter);
+             let products = await HomeService.getProducts(filter);
 
              callback({
                  recordsTotal: products.totalCount,

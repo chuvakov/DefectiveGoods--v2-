@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DefectiveGoods</title>
+
+    @await Html.PartialAsync("_Styles.cshtml")
+    @await Html.PartialAsync("_Scripts.cshtml")
+</head>
+
+<body class="sidebar-mini layout-fixed layout-navbar-fixed">
+
+    <div class="wrapper">
+        <div class="preloader">
+            <img src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+        </div>
+
+        @await Html.PartialAsync("_Header.cshtml")
+        @await Html.PartialAsync("_Sidebar.cshtml")
+        @await Html.PartialAsync("_ControlSidebar.cshtml")
+
+        <div class="content-wrapper bg-color--second">
+            @RenderBody()
+        </div>
+
+        @await Html.PartialAsync("_Footer.cshtml")
+    </div>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

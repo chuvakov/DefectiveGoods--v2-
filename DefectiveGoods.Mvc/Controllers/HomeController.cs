@@ -44,7 +44,7 @@ namespace DefectiveGoods.Mvc.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public PagedResultDto<ProductDto> GetProducts(PagedProductReguestDto input)
+        public PagedResultDto<ProductDto> GetProducts([FromBody] PagedProductReguestDto input)
         {
             IQueryable<Product> query = _productRepository
                 .GetAll()

@@ -46,6 +46,26 @@
     {
       "library": "axios@0.26.0",
       "destination": "wwwroot/lib/axios/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "datatables.net-responsive@2.2.9",
+      "destination": "wwwroot/lib/datatables.net-responsive/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "datatables.net-responsive-bs5@2.2.9",
+      "destination": "wwwroot/lib/datatables.net-responsive-bs5/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "datatables.net-buttons@2.2.2",
+      "destination": "wwwroot/lib/datatables.net-buttons/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "datatables.net-buttons-bs5@2.2.2",
+      "destination": "wwwroot/lib/datatables.net-buttons-bs5/"
     }
   ]
 }
