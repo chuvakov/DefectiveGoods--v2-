@@ -21,6 +21,5 @@
     <Folder Include="Infrastructure\Entities\Auditing\" />
     <Folder Include="Photos\" />
     <Folder Include="Categories\" />
-    <Folder Include="ProductCaterories\" />
   </ItemGroup>
 </Project>

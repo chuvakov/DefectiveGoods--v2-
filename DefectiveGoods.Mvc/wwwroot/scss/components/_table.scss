@@ -6,6 +6,7 @@
         thead {
             th {
                 border-color: $gray-color;
+                border-top: 0;
                 color: $white-color;
             }
         }
@@ -15,7 +16,62 @@
                 color: $white-color;
             }
         }
-    }    
+    }
+
+    &.dataTable {
+        margin-top: 0 !important;
+    }
+
+    &__footer {
+        color: $white-color;
+        padding: 10px 25px 25px;
+        align-items: center;
+
+        .dataTables_info {
+            padding: 0;
+            padding-top: 0 !important;
+        }
+
+        .dataTables_length {
+
+            label {
+                margin: 0 !important;
+                padding: 0 !important;
+                display: flex;
+                align-items: center;
+
+                .select {
+                    margin: 0 10px;
+                }
+            }
+        }
+
+        .page-item.disabled .page-link {
+            background-color: transparent !important;
+            color: $green-color !important;
+            border-color: $green-color !important;
+        }
+
+        .page-item.active .page-link {
+            background-color: $green-color !important;
+            border-color: $green-color !important;
+        }
+
+        .paginate_button {
+            background-color: transparent !important;
+            color: $green-color !important;
+        }
+
+        .page-item:first-child .page-link {
+            border-top-left-radius: 18px;
+            border-bottom-left-radius: 18px;
+        }
+
+        .page-item:last-child .page-link {
+            border-top-right-radius: 18px;
+            border-bottom-right-radius: 18px;
+        }
+    }
 }
 
 .table-responsive {

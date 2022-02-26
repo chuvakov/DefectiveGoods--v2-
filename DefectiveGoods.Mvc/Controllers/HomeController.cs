@@ -13,6 +13,7 @@ using DefectiveGoods.Core.Products;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using DefectiveGoods.Mvc.Dto;
+using System.Linq.Dynamic.Core;
 
 namespace DefectiveGoods.Mvc.Controllers
 {
@@ -51,6 +52,11 @@ namespace DefectiveGoods.Mvc.Controllers
                 .AsNoTracking();
 
             int totalCount = query.Count();
+
+            if (!string.IsNullOrEmpty(input.Sorting))
+            {
+                query = query.OrderBy(input.Sorting);
+            }
 
             var products = query
                 .Skip(input.SkipCount)

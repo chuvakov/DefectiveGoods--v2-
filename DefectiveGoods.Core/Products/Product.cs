@@ -27,6 +27,6 @@ namespace DefectiveGoods.Core.Products
         public virtual string Location { get; set; }
 
         [Required]
-        public virtual DateTime ArrivalDate { get; set; }        
+        public virtual DateTime ArrivalDate { get; set; }   
     }
 }

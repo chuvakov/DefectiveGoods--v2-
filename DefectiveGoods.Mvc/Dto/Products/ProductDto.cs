@@ -16,6 +16,8 @@ namespace DefectiveGoods.Mvc.Dto.Products
 
         public virtual string Location { get; set; }
 
+        public virtual string[] CategoryNames { get; set; }
+
         public virtual DateTime ArrivalDate { get; set; }
     }
 }
