@@ -6,10 +6,12 @@ using AutoMapper;
 using DefectiveGoods.Core;
 using DefectiveGoods.Core.Branches;
 using DefectiveGoods.Core.Infrastructure.Repositories;
+using DefectiveGoods.Core.ProductCaterories;
 using DefectiveGoods.Core.Products;
 using DefectiveGoods.Core.Users;
 using DefectiveGoods.EntityFrameworkCore;
 using DefectiveGoods.EntityFrameworkCore.Repositories;
+using DefectiveGoods.EntityFrameworkCore.Repositories.ProductCategories;
 using DefectiveGoods.EntityFrameworkCore.Repositories.Users;
 using DefectiveGoods.Mvc.Mapping;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -59,7 +61,8 @@ namespace DefectiveGoods.Mvc
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IRepository<Branch, int>, EfRepositoryBase<DefectiveGoodsContext, Branch, int>>();
             services.AddTransient<IRepository<Product, long>, EfRepositoryBase<DefectiveGoodsContext, Product, long>>();
-
+            services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+                
             services.AddControllersWithViews();
         }
 

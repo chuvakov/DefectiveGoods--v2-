@@ -4,20 +4,25 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace DefectiveGoods.EntityFrameworkCore.Repositories.ProductCategories
 {
-    public class ProductCategoryPepository :
+    public class ProductCategoryRepository :
         EfRepositoryBase<DefectiveGoodsContext, ProductCategory, int>,
         IProductCategoryRepository
     {
-        public ProductCategoryPepository(DefectiveGoodsContext context) : base(context)
+        public ProductCategoryRepository(DefectiveGoodsContext context) : base(context)
         {
         }
 
         public string[] GetCategoryNames(long productId)
         {
-            throw new NotImplementedException();
+            return Table
+                .Include(pc => pc.Category)
+                .Where(pc => pc.ProductId == productId)
+                .Select(pc => pc.Category.Name)
+                .ToArray();
         }
     }
 }

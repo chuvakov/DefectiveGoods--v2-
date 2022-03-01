@@ -14,6 +14,8 @@ using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using DefectiveGoods.Mvc.Dto;
 using System.Linq.Dynamic.Core;
+using DefectiveGoods.Core.ProductCaterories;
+using DefectiveGoods.EntityFrameworkCore.Repositories.ProductCategories;
 
 namespace DefectiveGoods.Mvc.Controllers
 {
@@ -21,12 +23,17 @@ namespace DefectiveGoods.Mvc.Controllers
     public class HomeController : Controller
     {        
         private readonly IRepository<Product, long> _productRepository;
+        private readonly IProductCategoryRepository _productCategoryRepository;
         private readonly IMapper _mapper;
 
-        public HomeController(IRepository<Product, long> productRepository, IMapper mapper)
+        public HomeController(
+            IRepository<Product, long> productRepository, 
+            IMapper mapper,
+            IProductCategoryRepository productCategoryRepository)
         {            
             _productRepository = productRepository;
             _mapper = mapper;
+            _productCategoryRepository = productCategoryRepository;
         }
 
         public IActionResult Index()
@@ -63,8 +70,15 @@ namespace DefectiveGoods.Mvc.Controllers
                 .Take(input.MaxResultCount)
                 .ToList()
                 .AsReadOnly();
+            
+            var result = _mapper.Map<IReadOnlyList<ProductDto>>(products);
 
-            return new PagedResultDto<ProductDto>(totalCount, _mapper.Map<IReadOnlyList<ProductDto>>(products));
+            foreach (var product in result)
+            {
+                product.CategoryNames = _productCategoryRepository.GetCategoryNames(product.Id);
+            }
+            
+            return new PagedResultDto<ProductDto>(totalCount, result);
         }        
     }
 }

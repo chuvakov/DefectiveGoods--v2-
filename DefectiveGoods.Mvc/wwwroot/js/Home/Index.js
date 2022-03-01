@@ -137,7 +137,14 @@ $(function () {
              {
                  targets: 6,
                  data: "count"
-             }             
+             },
+             {
+                 targets: 7,
+                 data: "categoryNames",
+                 render: data => {
+                     return data.join(",");
+                 }
+             }
          ]
      });
 });
